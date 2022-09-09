@@ -44,5 +44,5 @@ async  def numberplate_detection(camData:numberPLateDetected =Body(...)):
     return JSONResponse(status_code  =  200 , content  = val.tolist())
 
 
-# if __name__=="__main__":
-#     uvicorn.run("main:app",host='0.0.0.0', port=4557, reload=True, debug=True, workers=3)
+if __name__=="__main__":
+    uvicorn.run("main:app")
