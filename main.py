@@ -1,4 +1,6 @@
 from datetime import datetime
+import nltk
+nltk.download('stopwords')
 from importlib.resources import contents
 from typing import List
 from fastapi import FastAPI, Body, HTTPException, status, Request, UploadFile, File
