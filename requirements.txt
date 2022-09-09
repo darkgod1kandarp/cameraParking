@@ -34,7 +34,6 @@ matplotlib==3.5.3
 matplotlib-inline==0.1.6
 motor==3.0.0
 multidict==6.0.2
-nltk==3.7
 numpy==1.23.2
 oauthlib==3.2.0
 opencv-python==4.6.0.66
